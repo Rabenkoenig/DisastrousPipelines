@@ -16,9 +16,9 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.metrics import classification_report
 
 from sklearn.base import BaseEstimator, TransformerMixin
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+from nltk.tokenize import word_tokenize
+
 
 # Download necessary NLTK data
 nltk.download("punkt")
